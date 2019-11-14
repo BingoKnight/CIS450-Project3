@@ -1,0 +1,150 @@
+.header{
+  background-color: #d4d4d4;
+  color: #464646;
+  text-align: left;
+  padding: 15px;
+}
+
+#signin-form{
+  color: #464646;
+  background-color: #d4d4d4;
+  border: 1px solid #bebebe;
+  /* width: inherit; */
+  min-width: 300px;
+  /* margin: 100px auto; */
+  padding: 30px;
+  align-items: center;
+}
+
+#signin-form h2{
+  padding-bottom: 20px;
+}
+
+#signin-form input, 
+#signin-form select{
+  margin-bottom: 10px;
+}
+
+#reservation-table{
+  color: #464646;
+  background-color: #d4d4d4;
+  border: 1px solid #bebebe;
+  width: 450px;
+  min-width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  align-items: center;
+}
+
+#reservation-table table{
+  width: 100%;
+}
+
+#reservation-table td{
+  padding: 10px;
+}
+
+#reservation-table td:nth-child(2){
+  text-align: right;
+}
+
+#reservation-form h2{
+  padding-bottom: 20px;
+}
+
+#reservation-table #btn-container{
+  text-align: right;
+}
+
+#students-list{
+  color: #464646;
+  background-color: #d4d4d4;
+  border: 1px solid #bebebe;
+  width: 1200px;
+  min-width: 300px;
+  margin: 100px auto;
+  padding-top: 30px;
+  align-items: center;
+}
+
+#students-list #header{
+  padding: 0 20px 15px 50px;
+}
+
+#header span{
+  font-size: 1.75rem;
+}
+
+#search-box{
+  float: right;
+}
+
+#students-list table{
+  table-layout: fixed;
+  width: 100%;
+}
+
+#students-list table td,
+#students-list table th{
+  padding: 10px 10px;
+}
+
+#students-list table tr:nth-child(even){
+  background-color: white;
+}
+
+#signin-form #btn-container{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#editBtn{
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+#nav-bar{
+  background-color: #d4d4d4;
+  border-bottom: 1px solid #bebebe;
+  padding-left: 40px;
+}
+
+#nav-bar li h2{
+  font-size: 1.5rem;
+  padding-right: 60px;
+  cursor: default;
+}
+
+#nav-bar li *{
+  padding: 0px 10px;
+  color: #464646;
+  font-size: 1.2rem;
+}
+
+#modal-backdrop{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+#sched-modal{
+  margin-top: 150px;
+}
+
+#sched-modal li{
+  list-style: none;
+}
+
+#alert{
+  visibility: hidden;
+}
+
+#form-container{
+  width: 35%;
+  margin: 30px auto;
+}
