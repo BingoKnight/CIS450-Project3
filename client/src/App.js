@@ -11,8 +11,8 @@ export default function App(){
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/client/" component={Home} />
-          <Route path="/client/students" component={Students} />
+          <Route exact path="/CIS450-Project3/client/build/" component={Home} />
+          <Route path="/CIS450-Project3/client/build/students" component={Students} />
         </Switch>
       </Router>
     </div>
@@ -27,10 +27,10 @@ function Header(){
           <h2>P3</h2>
         </li>
         <li className="nav-item">
-          <Link id="home-btn" to="/">Home</Link>
+          <Link id="home-btn" to="/CIS450-Project3/client/build/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link id="students-btn" to="/students">Students</Link>
+          <Link id="students-btn" to="/CIS450-Project3/client/build/students">Students</Link>
         </li>
       </ul>
     </div>
